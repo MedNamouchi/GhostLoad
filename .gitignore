@@ -1,0 +1,72 @@
+# ─── Compiled binaries ───────────────────────────────────────────────────────
+*.exe
+*.dll
+*.obj
+*.o
+*.a
+*.lib
+*.out
+
+# ─── LaTeX build artifacts ───────────────────────────────────────────────────
+*.aux
+*.log
+*.toc
+*.lof
+*.lot
+*.out
+*.fls
+*.fdb_latexmk
+*.synctex.gz
+*.synctex(busy)
+*.bbl
+*.blg
+*.idx
+*.ind
+*.ilg
+*.glo
+*.gls
+*.glg
+*.acn
+*.acr
+*.alg
+*.bcf
+*.run.xml
+*.xdv
+_minted-*/
+*.nav
+*.snm
+*.vrb
+
+# ─── Build output directory ──────────────────────────────────────────────────
+build/
+dist/
+out/
+
+# ─── Shellcode raw files (never commit live payloads) ────────────────────────
+*.bin
+*.raw
+shellcode.h
+payload_*
+
+# ─── OS artifacts ────────────────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ─── IDE / editor ────────────────────────────────────────────────────────────
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# ─── Python (pySigma / scripts) ──────────────────────────────────────────────
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+
+# ─── Metasploit / msfvenom output ────────────────────────────────────────────
+*.rc
+msf_*
